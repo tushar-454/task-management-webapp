@@ -10,6 +10,7 @@ const routes = createBrowserRouter([
       {
         index: true,
         element: <Home />,
+        loader: () => fetch('/user.json'),
       },
     ],
   },

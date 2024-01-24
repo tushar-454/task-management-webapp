@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.postimg.cc/P5FKt6bn/team-1.jpg",
+    "name": "Sarah Johnson",
+    "type": "Event Planner"
+  },
+  {
+    "id": 2,
+    "image": "https://i.postimg.cc/7hMmww9K/team-2.jpg",
+    "name": "Michael Smith",
+    "type": "Creative Director"
+  },
+  {
+    "id": 3,
+    "image": "https://i.postimg.cc/T1XCzpVy/team-3.jpg",
+    "name": "Emily Davis",
+    "type": "Logistics Coordinator"
+  },
+  {
+    "id": 4,
+    "image": "https://i.postimg.cc/tgZk7hDZ/team-4.jpg",
+    "name": "David Martinez",
+    "type": "Marketing Specialist"
+  },
+  {
+    "id": 5,
+    "image": "https://i.postimg.cc/J7bTb58j/team-5.jpg",
+    "name": "Lisa Turner",
+    "type": "Venue Manager"
+  },
+  {
+    "id": 6,
+    "image": "https://i.postimg.cc/DwzB3VXc/team-6.jpg",
+    "name": "John Anderson",
+    "type": "Technical Director"
+  },
+  {
+    "id": 7,
+    "image": "https://i.postimg.cc/RVdXYCNF/team-7.jpg",
+    "name": "Jessica White",
+    "type": "Client Relations Manager"
+  },
+  {
+    "id": 8,
+    "image": "https://i.postimg.cc/28r0TLjM/team-8.jpg",
+    "name": "Alexandra Lee",
+    "type": "Decor Specialist"
+  }
+]
