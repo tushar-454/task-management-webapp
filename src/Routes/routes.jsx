@@ -1,4 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
+import Dashboard from '../Layout/Dashboard';
 import Root from '../Layout/Root';
 import Home from '../Page/Home';
 import Login from '../Page/Login';
@@ -24,6 +25,14 @@ const routes = createBrowserRouter([
         element: (
           <PrivateRoute>
             <Profile />
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: 'dashboard',
+        element: (
+          <PrivateRoute>
+            <Dashboard />
           </PrivateRoute>
         ),
       },
