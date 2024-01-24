@@ -1,11 +1,14 @@
 import { Toaster } from 'react-hot-toast';
 import { RouterProvider } from 'react-router-dom';
+import AuthProvider from './AuthProvider/AuthProvider';
 import routes from './Routes/routes';
 
 const App = () => {
   return (
     <>
-      <RouterProvider router={routes} />
+      <AuthProvider>
+        <RouterProvider router={routes} />
+      </AuthProvider>
       <Toaster />
     </>
   );
